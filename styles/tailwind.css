@@ -434,72 +434,8 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.fixed{
-  position: fixed;
-}
-.top-0{
-  top: 0px;
-}
-.z-10{
-  z-index: 10;
-}
-.mx-\[0\.8rem\]{
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-}
-.flex{
-  display: flex;
-}
 .h-6{
   height: 1.5rem;
-}
-.h-\[5\.4rem\]{
-  height: 5.4rem;
-}
-.w-full{
-  width: 100%;
-}
-.items-center{
-  align-items: center;
-}
-.justify-between{
-  justify-content: space-between;
-}
-.rounded-\[0\.8rem\]{
-  border-radius: 0.8rem;
-}
-.bg-transparent{
-  background-color: transparent;
-}
-.p-\[3\.2rem\]{
-  padding: 3.2rem;
-}
-.px-\[0\.8rem\]{
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-}
-.py-\[0\.4rem\]{
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-}
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.font-semibold{
-  font-weight: 600;
-}
-.text-\[\#181b21\]{
-  --tw-text-opacity: 1;
-  color: rgb(24 27 33 / var(--tw-text-opacity, 1));
-}
-.transition-all{
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-.duration-300{
-  transition-duration: 300ms;
 }
 
 html {
@@ -540,10 +476,13 @@ html {
   background-color: rgb(24 27 33 / var(--tw-bg-opacity, 1));
   --tw-bg-opacity: 0.1;
 }
-.hover\:bg-\[\#181b21\]:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 27 33 / var(--tw-bg-opacity, 1));
+.car_section{
+  height: 100vh;
+  width: 100%;
 }
-.hover\:bg-opacity-10:hover{
-  --tw-bg-opacity: 0.1;
+.car_img{
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
