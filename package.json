@@ -3,14 +3,14 @@
     "tailwindcss": "^3.4.17"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1"
+    "autoprefixer": "^10.4.20"
   },
   "name": "testla-landing-page",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "tailwind build -i styles/main.css -o styles/tailwind.css"
+    "build": "postcss ./styles/main.css -o ./styles/tailwind.css",
+    "watch": "postcss ./styles/main.css -o ./styles/tailwind.css -w"
   },
   "keywords": [],
   "author": "",
