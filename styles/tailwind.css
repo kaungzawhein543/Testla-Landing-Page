@@ -483,6 +483,7 @@ html {
   --tw-bg-opacity: 0.1;
 }
 .car_section{
+  position: relative;
   height: 100vh;
   width: 100%;
 }
